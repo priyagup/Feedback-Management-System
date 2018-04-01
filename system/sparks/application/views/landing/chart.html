@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="http://localhost/FMS/public/css/c3.min.css">
+</head>
+<body>
+	<div class="main">
+		<div id="bar">
+			
+		</div>
+		<div id="circle"></div>
+	</div>
+	<!--script src="http://localhost/FMS/public/js/jquery.js" ></script-->
+	<!-- script src="http://localhost/FMS/public/js/highcharts.js" ></script-->
+	<script src="http://localhost/FMS/public/js/d3.min.js" ></script>
+	<!--script src="http://localhost/FMS/public/js/c3.min.js" ></script-->
+	
+	<script>
+	var svg = d3.select('#circle')
+	    .append('svg')
+	    .attr('width', 200)
+	    .attr('height', 200);
+
+	svg.append('circle')
+	    .style('stroke', 'black')
+	    .style('fill', 'yellow')
+	    .attr('r', 40)
+	    .attr('cx', 50)
+	    .attr('cy', 50)
+	    .transition()
+	    .delay(100)
+	    .duration(5000)
+	    .attr("r", 10)
+	    .attr("cx", 150)
+	    .style("fill", "black");
+	</script>
+</body>
+</html>

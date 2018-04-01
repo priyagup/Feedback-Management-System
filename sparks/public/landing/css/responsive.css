@@ -1,0 +1,137 @@
+@media screen and (max-width: 992px){
+	.container {
+		width: 100%;
+	}
+	.price .container, 
+	.footer .container {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 768px){
+	h1 {
+		font-size: 52px;
+	}
+	.top .content h1 {
+		font-size: 64px;
+	}
+	.team .member img {
+		position: relative;
+	}
+	.team .member .details {
+		position: relative;
+		opacity: 1;
+	}
+	.team .member .details p {
+		top: 0;
+	}
+	.team .info:hover .details p {
+		transform: translateY(0px);
+		-ms-transform: translateY(0px);
+		-webkit-transform: translateY(0px);
+	}
+	.team .member .details .icon {
+		top: 200px;
+	}
+	.team .info:hover .icon {
+		transform:translateY(0px);
+		-ms-transform:translateY(0px);
+		-webkit-transform:translateY(0px);
+	}
+	.testimonial .testimonial-slide {
+		width: 90%;
+	}
+	.subscribe .subscribe-header {
+		width: 100%;
+	}
+	.price .container, 
+	.footer .container {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 640px){
+	h1 {
+		font-size: 44px;
+	}
+	.underline {
+		max-width: 250px;
+	}
+	.underline:before,
+	.underline:after  {
+		width: 100px;
+	}
+	.top .content h1 {
+		font-size: 56px;
+		margin-top: 0;
+	}
+	.top .content .button a {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: table;
+		margin-bottom: 100px;
+	}
+	.features {
+		padding-top: 30px;
+	}
+	.description .content .button a {
+		margin-left: auto;
+		margin-right: auto;
+		display: table;
+	}
+	.testimonial .testimonial-slide {
+		width: 100%;
+	}
+	.subscribe .social li {
+		margin-right: 5px;
+	}
+	.footer .contact .contact-submit {
+		padding: 10px 30px;
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 480px){
+	.header {
+		width: 100%;
+	}
+	.underline {
+		max-width: 200px;
+	}
+	.underline:before,
+	.underline:after  {
+		width: 75px;
+	}
+	.featured-item .icon {
+		float: none;
+		margin: auto;
+	}
+	.featured-item .meta-text {
+		margin-left: 0px;
+		text-align: center;
+	}
+	.featured-item p {
+		margin-bottom: 60px;
+	}
+	.testimonial .testimonial-slide .content p {
+		padding:0 30px;
+	}
+	.testimonial .testimonial-slide .content p:before,
+	.testimonial .testimonial-slide .content p:after {
+		font-size: 22px;
+	}
+	.price .price-table {
+		padding: 0 15px;
+	}
+	.price .price-list ul {
+		padding-left: 0px;
+	}
+	.input-group-addon {
+		height: 50px;
+	}
+	.subscribe .subscribe-form input {
+		height: 50px;
+	}
+	.subscribe .subscribe-form button {
+		padding: 10px 20px;
+		font-size: 18px;
+	}
+}
